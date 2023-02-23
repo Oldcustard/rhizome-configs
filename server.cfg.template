@@ -1,0 +1,37 @@
+log on
+
+rcon_password "${RCON_PASSWORD}"
+
+hostname "${SERVER_HOSTNAME}"
+sv_password "${SERVER_PASSWORD}"
+
+sv_contact "admin@rhizome.tf"
+hide_server 1
+sv_tags ""
+
+sv_downloadurl "${DOWNLOAD_URL}"
+sv_allowdownload 1
+sv_allowupload 1
+
+tv_enable 1
+tv_name "${STV_NAME}"
+tv_title "${STV_TITLE}"
+tv_password "${STV_PASSWORD}"
+tv_maxrate 0
+tv_delay 90
+tv_transmitall 1
+
+sv_quota_stringcmdspersecond 400
+
+mp_idlemaxtime 10
+
+logstf_apikey "${LOGS_TF_APIKEY}"
+sm_demostf_apikey "${DEMOS_TF_APIKEY}"
+sm_map_download_base "${DOWNLOAD_URL}maps"
+
+sm plugins unload multiduo
+sm plugins unload mapchooser
+
+mp_tournament 1
+tf_weapon_criticals 0
+tf_use_fixed_weaponspreads 1
