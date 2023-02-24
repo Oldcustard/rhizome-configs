@@ -31,6 +31,7 @@ sm_map_download_base "${DOWNLOAD_URL}maps"
 
 sm plugins unload multiduo
 sm plugins unload mapchooser
+sm plugins unload mgemod
 
 mp_tournament 1
 tf_weapon_criticals 0
