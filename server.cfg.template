@@ -38,3 +38,4 @@ sm plugins load properpregame
 mp_tournament 1
 tf_weapon_criticals 0
 tf_use_fixed_weaponspreads 1
+sv_pausable 1
