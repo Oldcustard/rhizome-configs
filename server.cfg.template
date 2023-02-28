@@ -23,6 +23,7 @@ tv_transmitall 1
 
 sv_quota_stringcmdspersecond 400
 
+mp_idledealmethod 0
 mp_idlemaxtime 10
 
 logstf_apikey "${LOGS_TF_APIKEY}"
