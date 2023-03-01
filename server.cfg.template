@@ -36,8 +36,6 @@ sm plugins unload mgemod
 sm plugins load soap_tf2dm
 sm plugins load properpregame
 
-exec stac_base
-
 mp_tournament 1
 tf_weapon_criticals 0
 tf_use_fixed_weaponspreads 1
