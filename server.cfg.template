@@ -30,9 +30,9 @@ logstf_apikey "${LOGS_TF_APIKEY}"
 sm_demostf_apikey "${DEMOS_TF_APIKEY}"
 sm_map_download_base "${DOWNLOAD_URL}maps"
 
-sm plugins unload multiduo
-sm plugins unload mapchooser
-sm plugins unload mgemod
+sm_plugins disable multiduo
+sm_plugins disable mapchooser
+sm_plugins disable mgemod
 sm plugins load soap_tf2dm
 sm plugins load properpregame
 
@@ -40,3 +40,17 @@ mp_tournament 1
 tf_weapon_criticals 0
 tf_use_fixed_weaponspreads 1
 sv_pausable 1
+
+//No votes!
+sv_vote_issue_autobalance_allowed 0
+sv_vote_issue_changelevel_allowed 0
+sv_vote_issue_classlimits_allowed 0
+sv_vote_issue_extendlevel_allowed 0
+sv_vote_issue_kick_allowed 0
+sv_vote_issue_mvm_challenge_allowed 0
+sv_vote_issue_nextlevel_allowed 0
+sv_vote_issue_nextlevel_allowextend 0
+sv_vote_issue_pause_game_allowed 0
+sv_vote_issue_restart_game_allowed 0
+sv_vote_issue_scramble_teams_allowed 0
+
